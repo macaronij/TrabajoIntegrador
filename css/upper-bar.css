@@ -1,0 +1,37 @@
+.upper-bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display:flex;
+}
+
+.imprenta {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin: 8px;
+}
+
+.buenosayres {
+    font-family: 'Ephesis', cursive;
+    font-size: 50px;
+    margin: 8px;
+
+}
+
+.upper-bar {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

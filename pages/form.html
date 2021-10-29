@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/background.css">
+    <link rel="stylesheet" href="../css/upper-bar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/cb7792865a.js" crossorigin="anonymous"></script>    
+
+</head>
+<body>
+    <!-- BACKGROUND-->
+    <div class="background"> 
+        <div class="background__cyan"></div>
+        <div class="background__yellow"></div>
+        <div class="background__blue"></div>
+        <div class="background__magenta"></div>
+    </div>
+
+    <!-- upper bar-->
+    <div class="upper-bar">
+        <div class="imprenta">imprenta</div>
+        <div class="buenosayres">Buenos Ayres</div>
+    </div>
+    
+    <div class="form" id="formulario">
+        <input type="text" id="name" name="name" placeholder="Nombre">
+        <br>
+        <input type="text" id="mail" name="mail" placeholder="E-Mail" size="50">
+        <br><br>
+        <textarea id="message" name="message" rows="7" cols="50" placeholder="Puede escribir su mensaje..."></textarea>
+        <input type="submit" value="Enviar" onclick="myForm()">
+        <span id="status"></span>
+    </div>
+
+    <!-- footer-->
+    <div class="flex-footer">
+      <a href="../index.html"><div class="flex-item-footer"><i class="fas fa-home fa-2x"></i></div></a>
+      <a href="info.html"><div class="flex-item-footer"><i class="fas fa-question fa-2x"></i></div></a>
+    </div>
+    
+    <!--javascript-->
+    <script src="../ext/js.js"></script>
+
+</body>
+</html>

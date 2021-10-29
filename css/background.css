@@ -1,0 +1,54 @@
+
+
+
+.background {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    background-color: pink;
+    overflow: hidden;
+}
+
+.background__cyan {
+    background-color: cyan;
+    transform: rotate(45deg);
+    width: 500px;
+    height: 1250px;
+    position: absolute;
+    top: 00px;
+    left: 0px;
+}
+
+.background__yellow {
+    background-color: rgb(240, 240, 71);
+    transform: rotate(45deg);
+    width: 1400px;
+    height: 1200px;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    
+}
+
+.background__magenta {
+    background-color: rgb(247, 132, 247);
+    transform: rotate(45deg);
+    width: 1200px;
+    height: 1200px;
+    position: absolute;
+    top: 500px;
+    left: -25px;
+}
+.background__blue {
+    width: 0;
+    height: 0;
+    border-top: 350px solid transparent;
+    border-bottom: 350px solid transparent;
+    border-left: 350px solid rgb(31, 53, 247);
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+

@@ -1,0 +1,70 @@
+ody{
+    background-color: pink;
+    margin: 0;
+}
+
+/* cartas -------------------------*/
+.card-flex {
+   display: flex;
+   justify-content:  space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 90vw;
+   height: 80vh;
+   position: absolute;
+   top: 100px;
+}
+
+.card {
+
+    z-index: 50;
+    
+}
+img {
+    width: 130px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid green;
+
+}
+
+
+/* info de contacto -----------------*/
+.info {
+    position: absolute;
+    top: 20%;
+    z-index: 50;
+    left: 10%;
+    font-size: 2em;
+}
+
+
+
+
+/* FORMULARIO ------------------------*/
+.form {
+    position: absolute;
+    top: 30%;
+    z-index: 50;
+    left: 5%;
+    font-size: 1.5em;
+    background-color: rgba(5, 5, 5, .8);
+    width: 90%;
+    max-width: 400px;
+    height: 90%;
+    max-height: 300px;
+    padding: 10px;
+    color: rgb(180,180,180);
+}
+
+#name {
+    width: 80%;
+}
+
+#mail {
+    width: 80%;
+}
+
+#message {
+    width: 80%;
+}

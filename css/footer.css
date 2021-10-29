@@ -1,0 +1,30 @@
+.flex-footer {
+    height: 50px;
+    width: 100vw;
+    z-index: 15;
+    background-color: rgb(3, 3, 3);
+    position: absolute;
+    top: calc(100% - 50px);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.flex-item-footer {
+    background-color: rgb(27, 27, 27);
+    width: 40vw;
+    max-width: 250px;
+    height: 50px;
+    border: 5px solid #000;
+    box-sizing: border-box;
+    z-index: 5;
+    text-align: center;
+
+}
+
+.flex-item-footer i {
+    position: relative;
+    top: 7px;
+    color: white
+}
