@@ -1,37 +1,65 @@
 .upper-bar {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    display:flex;
+  display:flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 
 .imprenta {
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    margin: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  margin: 8px;
 }
 
 .buenosayres {
-    font-family: 'Ephesis', cursive;
-    font-size: 50px;
-    margin: 8px;
-
+  font-family: 'Ephesis', cursive;
+  font-size: 50px;
+  margin: 8px;
 }
 
 .upper-bar {
-    animation-duration: 3s;
-    animation-name: slidein;
+  animation-duration: 3s;
+  animation-name: slidein;
   }
   
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+   }
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
+}
+
+@media (max-width: 500px) {
+  .imprenta {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin: 3px;
+  }
+  
+  .buenosayres {
+    font-family: 'Ephesis', cursive;
+    font-size: 40px;
+    margin: 3px;
+  }
+
+}
+
+@media (max-width: 374px) {
+  .imprenta {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 3px;
+  }
+  
+  .buenosayres {
+    font-family: 'Ephesis', cursive;
+    font-size: 30px;
+    margin: 3px;
+  }
+
+}
